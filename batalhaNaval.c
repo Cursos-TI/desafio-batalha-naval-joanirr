@@ -23,15 +23,15 @@ int main() {
         }
     }
 
-    // Colocando o navio na horizontal (linha 5, colunas 6 a 9)
+    // Colocando o navio na horizontal (linha 5, colunas 6 a 8)
 
     for (int j = 5; j <= 7; j++) {
-        tabuleiro[5][j] = 3;
+        tabuleiro[4][j] = 3;
     }
 
     // Colocando o navio na vertical (coluna 2, linhas 1 a 3)
 
-    for (int i = 2; i <= 4; i++) {
+    for (int i = 0; i <= 2; i++) {
         tabuleiro[i][1] = 3;
     }
 
